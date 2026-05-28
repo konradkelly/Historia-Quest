@@ -6,7 +6,8 @@ import babel from '@rolldown/plugin-babel'
 export default defineConfig({
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
-    base: '/Historia-Quest/' // check on this
+    babel({ presets: [reactCompilerPreset()] }),
   ],
+
+  base: '/Historia-Quest/', 
 })
