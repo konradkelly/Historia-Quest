@@ -9,5 +9,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
   ],
 
-  base: '/Historia-Quest/', 
+  base: process.env.VITE_BASE_PATH ?? '/',
 })
